@@ -71,9 +71,11 @@ Check out the live version: [Device Repair Website](https://techfix-servis.netli
 
 ## 📸 Preview
 
-**Desktop Preview**
-- (slike/desktop.png)
-**Mobile Preview**
-- (slike/mobile.jpeg)
+**Desktop Preview**  
+![Desktop Preview](slike/desktop.png)  
+
+**Mobile Preview**  
+![Mobile Preview](slike/mobile.jpeg)  
+
 
 ⭐ If you like this project, please give it a star on GitHub!
