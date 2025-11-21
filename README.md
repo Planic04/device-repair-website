@@ -4,11 +4,6 @@
 
 > A modern, fully responsive website for IT repair services built with HTML, CSS, Bootstrap, and JavaScript.
 
-## 📸 Preview
-
-![Desktop Preview](slike/desktop.png)
-![Mobile Preview](slike/mobile.jpeg)
-
 ## ✨ Features
 
 - 📱 **Fully Responsive Design** - Works seamlessly on all devices
@@ -37,11 +32,26 @@
 ```
 device-repair-website/
 ├── index.html
+├── akcije.html
+├── blog.html
+├── download.html
+├── faq.html
+├── galerija.html
+├── kontakt.html
+├── mapa.html
+├── onama.html
+├── recenzije.html
+├── usluge.html
+├── zastampu.html
 ├── css/
-│   └── style.css
+│ └── style.css
 ├── js/
-│   └── script.js
-├── images/
+│ └── script.js
+├── slike/
+├── pdf/
+│ |── brosura.pdf
+│ ├── cenovnik.pdf
+│ └── upustvo.pdf
 └── README.md
 ```
 
@@ -58,5 +68,12 @@ Check out the live version: [Device Repair Website](https://techfix-servis.netli
 - GitHub: [@TVOJ_USERNAME](https://github.com/Planic04)
 
 ---
+
+## 📸 Preview
+
+**Desktop Preview**
+- (slike/desktop.png)
+**Mobile Preview**
+- (slike/mobile.jpeg)
 
 ⭐ If you like this project, please give it a star on GitHub!
