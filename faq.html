@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechFix Servis | Početna</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="slike/logo.png" alt="Logo" class="logo-navbar">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Početna</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="onama.html">O nama</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="usluge.html">Usluge</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontakt.html">Kontakt</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Više</a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="galerija.html">Galerija</a></li>
+            <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+            <li><a class="dropdown-item" href="zastampu.html">Za štampu</a></li>
+            <li><a class="dropdown-item" href="download.html">Download</a></li>
+            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+            <li><a class="dropdown-item" href="recenzije.html">Recenzije</a></li>
+            <li><a class="dropdown-item" href="akcije.html">Akcije</a></li>
+            <li><a class="dropdown-item" href="mapa.html">Mapa sajta</a></li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Naslovna sekcija -->
+  <section class="bg-primary text-white text-center py-5 mb-0">
+    <div class="container">
+      <h2 class="display-5" data-aos="zoom-in">Često postavljana pitanja</h2>
+      <p class="lead" data-aos="fade-up" data-aos-delay="200">Odgovori na najčešća pitanja naših klijenata</p>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="accordion" id="faqAccordion">
+
+        <!-- Pitanje 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#odg1">
+        Koliko traje popravka laptopa?
+            </button>
+          </h2>
+          <div id="odg1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+        Većina popravki se završava u roku od 1 do 3 radna dana, u zavisnosti od složenosti problema i dostupnosti delova.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pitanje 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#odg2">
+        Da li da donesem punjač sa uređajem?
+            </button>
+          </h2>
+          <div id="odg2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+        Poželjno je da donesete i punjač, naročito ako sumnjate da je problem u napajanju ili punjenju uređaja.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pitanje 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#odg3">
+        Da li se čuvaju moji podaci prilikom popravke?
+            </button>
+          </h2>
+          <div id="odg3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+        Vaši podaci su sigurni, ali preporučujemo da napravite rezervnu kopiju pre predaje uređaja ako je moguće.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pitanje 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#odg4">
+        Da li moram da zakažem dolazak?
+            </button>
+          </h2>
+          <div id="odg4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+        Možete doći i bez zakazivanja, ali za bržu uslugu preporučujemo da nas pozovete ili pošaljete mejl unapred.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pitanje 5 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#odg5">
+        Da li da plaćam unapred?
+            </button>
+          </h2>
+          <div id="odg5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+        Ne, plaćanje se vrši po završetku usluge. Za skuplje delove može se tražiti avans.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pitanje 6 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#odg6">
+        Da li da ostavim lozinku za uređaj?
+            </button>
+          </h2>
+          <div id="odg6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+        Ako je potrebna dijagnostika sistema, ostavljanje lozinke može pomoći. Po želji možete postaviti privremenu lozinku.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pitanje 7 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#odg7">
+        Koliko traje zamena baterije?
+            </button>
+          </h2>
+          <div id="odg7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+        Ako imamo bateriju na stanju, zamena se obavlja u roku od 1 sata. U suprotnom, zavisi od nabavke (1-2 dana).
+            </div>
+          </div>
+        </div>
+
+        <!-- Pitanje 8 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq8">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#odg8">
+        Da li dobijam garanciju na uslugu?
+            </button>
+          </h2>
+          <div id="odg8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+        Da, na sve popravke i rezervne delove dobijate garanciju u trajanju od 3 do 12 meseci, u zavisnosti od usluge.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white pt-5 pb-3 mt-5">
+    <div class="container">
+      <div class="row">
+      
+        <!-- Leva kolona -->
+        <div class="col-md-4 mb-4">
+          <img src="slike/logo.png" alt="Logo" style="width: 120px;" class="mb-3">
+          <p>Adresa: Tehnička 1<br>11000 Beograd, Srbija</p>
+          <p>Telefon: +381 60 123 4567</p>
+          <p>Email: kontakt@techfix.rs</p>
+        </div>
+
+        <!-- Srednja kolona -->
+        <div class="col-md-4 mb-4">
+          <h5 class="border-bottom pb-2">UKRATKO O SERVISU</h5>
+          <p>TechFix Servis je stručni tim za dijagnostiku, popravku i održavanje IT uređaja – laptopova, telefona i tableta. Pružamo pouzdanu i brzu uslugu uz garanciju kvaliteta.</p>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <h5 class="border-bottom pb-2">PREČICE</h5>
+          <div class="row">
+            <div class="col-6">
+              <ul class="list-unstyled">
+                <li><a href="index.html" class="text-white text-decoration-none">Početna</a></li>
+                <li><a href="onama.html" class="text-white text-decoration-none">O nama</a></li>
+                <li><a href="usluge.html" class="text-white text-decoration-none">Usluge</a></li>
+                <li><a href="galerija.html" class="text-white text-decoration-none">Galerija</a></li>
+                <li><a href="faq.html" class="text-white text-decoration-none">FAQ</a></li>
+                <li><a href="recenzije.html" class="text-white text-decoration-none">Recenzije</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul class="list-unstyled">
+                <li><a href="download.html" class="text-white text-decoration-none">Download</a></li>
+                <li><a href="akcije.html" class="text-white text-decoration-none">Akcije</a></li>
+                <li><a href="mapa.html" class="text-white text-decoration-none">Mapa sajta</a></li>
+                <li><a href="kontakt.html" class="text-white text-decoration-none">Kontakt</a></li>
+                <li><a href="zastampu.html" class="text-white text-decoration-none">Za štampu</a></li>
+                <li><a href="blog.html" class="text-white text-decoration-none">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>  
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
